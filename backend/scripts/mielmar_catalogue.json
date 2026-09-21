@@ -1,0 +1,1124 @@
+[
+  {
+    "sku": "MIE-CH-001",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Shampooing",
+    "name": "Shampooing Douceur Miel & Avoine",
+    "format": "250 ml",
+    "description": "Nettoie délicatement les cheveux secs et laisse une sensation de douceur.",
+    "ingredients": [
+      {
+        "name": "Miel"
+      },
+      {
+        "name": "avoine"
+      },
+      {
+        "name": "aloe vera"
+      }
+    ],
+    "usage": "Cheveux secs ou sensibles",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S01 / S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-002",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Shampooing",
+    "name": "Shampooing Purifiant Romarin & Argile",
+    "format": "250 ml",
+    "description": "Purifie le cuir chevelu et aide à espacer les lavages sans alourdir.",
+    "ingredients": [
+      {
+        "name": "Romarin"
+      },
+      {
+        "name": "argile verte"
+      },
+      {
+        "name": "menthe"
+      }
+    ],
+    "usage": "Cuir chevelu gras",
+    "price": 95,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-003",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Shampooing",
+    "name": "Shampooing Réparateur Argan & Protéines Végétales",
+    "format": "250 ml",
+    "description": "Nettoie les longueurs fragilisées et améliore leur souplesse.",
+    "ingredients": [
+      {
+        "name": "Huile d’argan"
+      },
+      {
+        "name": "protéines de riz"
+      },
+      {
+        "name": "panthénol"
+      }
+    ],
+    "usage": "Cheveux abîmés",
+    "price": 99,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-004",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Après-shampooing",
+    "name": "Après-shampooing Douceur Avoine",
+    "format": "200 ml",
+    "description": "Démêle les cheveux et facilite le coiffage quotidien.",
+    "ingredients": [
+      {
+        "name": "Avoine"
+      },
+      {
+        "name": "aloe vera"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Tous types de cheveux",
+    "price": 85,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-005",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Après-shampooing",
+    "name": "Après-shampooing Nutrition Argan",
+    "format": "200 ml",
+    "description": "Nourrit les longueurs sèches sans effet lourd.",
+    "ingredients": [
+      {
+        "name": "Huile d’argan"
+      },
+      {
+        "name": "beurre de karité"
+      },
+      {
+        "name": "jojoba"
+      }
+    ],
+    "usage": "Cheveux secs",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-006",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Masque",
+    "name": "Masque Réparateur Karité & Argan",
+    "format": "200 ml",
+    "description": "Soin riche pour les longueurs cassantes et sensibilisées.",
+    "ingredients": [
+      {
+        "name": "Karité"
+      },
+      {
+        "name": "huile d’argan"
+      },
+      {
+        "name": "protéines végétales"
+      }
+    ],
+    "usage": "Cheveux très secs",
+    "price": 119,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-007",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Masque",
+    "name": "Masque Hydratant Aloe & Miel",
+    "format": "200 ml",
+    "description": "Apporte hydratation et brillance aux cheveux ternes.",
+    "ingredients": [
+      {
+        "name": "Aloe vera"
+      },
+      {
+        "name": "miel"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Cheveux déshydratés",
+    "price": 115,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S01 / S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-008",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Sérum",
+    "name": "Sérum Pointes Sèches Argan",
+    "format": "50 ml",
+    "description": "Lisse l’apparence des pointes et apporte une finition brillante.",
+    "ingredients": [
+      {
+        "name": "Huile d’argan"
+      },
+      {
+        "name": "squalane végétal"
+      },
+      {
+        "name": "jojoba"
+      }
+    ],
+    "usage": "Pointes sèches",
+    "price": 125,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-009",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Huile",
+    "name": "Huile Capillaire Nutrition Intense",
+    "format": "100 ml",
+    "description": "Bain d’huile avant shampooing pour nourrir les longueurs.",
+    "ingredients": [
+      {
+        "name": "Argan"
+      },
+      {
+        "name": "amande douce"
+      },
+      {
+        "name": "nigelle"
+      }
+    ],
+    "usage": "Cheveux secs ou bouclés",
+    "price": 139,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CH-010",
+    "brand": "MIELMAR",
+    "category": "Cheveux",
+    "form_type": "Lotion",
+    "name": "Lotion Cuir Chevelu Ortie & Romarin",
+    "format": "100 ml",
+    "description": "Lotion légère pour une routine de soin du cuir chevelu.",
+    "ingredients": [
+      {
+        "name": "Ortie"
+      },
+      {
+        "name": "romarin"
+      },
+      {
+        "name": "niacinamide"
+      }
+    ],
+    "usage": "Cuir chevelu normal à gras",
+    "price": 129,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S02",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-001",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Nettoyant",
+    "name": "Gel Nettoyant Doux Aloe & Miel",
+    "format": "200 ml",
+    "description": "Élimine les impuretés sans laisser de sensation de tiraillement.",
+    "ingredients": [
+      {
+        "name": "Aloe vera"
+      },
+      {
+        "name": "miel"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Peaux normales à sèches",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03 / S04",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-002",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Nettoyant",
+    "name": "Mousse Purifiante Safran & Argan",
+    "format": "150 ml",
+    "description": "Mousse légère pour nettoyer le visage matin et soir.",
+    "ingredients": [
+      {
+        "name": "Safran"
+      },
+      {
+        "name": "argan"
+      },
+      {
+        "name": "eau florale"
+      }
+    ],
+    "usage": "Peaux mixtes",
+    "price": 95,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-003",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Eau florale",
+    "name": "Brume de Rose Hydratante",
+    "format": "100 ml",
+    "description": "Rafraîchit la peau et complète le nettoyage du visage.",
+    "ingredients": [
+      {
+        "name": "Eau de rose"
+      },
+      {
+        "name": "aloe vera"
+      }
+    ],
+    "usage": "Tous types de peau",
+    "price": 79,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-004",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Lotion tonique",
+    "name": "Lotion Tonique Fleur d’Oranger",
+    "format": "150 ml",
+    "description": "Prépare la peau aux soins avec une texture fraîche et légère.",
+    "ingredients": [
+      {
+        "name": "Fleur d’oranger"
+      },
+      {
+        "name": "panthénol"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Peaux normales à mixtes",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-005",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Sérum",
+    "name": "Sérum Hydratation Aloe & Acide Hyaluronique",
+    "format": "30 ml",
+    "description": "Sérum quotidien qui améliore le confort des peaux déshydratées.",
+    "ingredients": [
+      {
+        "name": "Aloe vera"
+      },
+      {
+        "name": "acide hyaluronique"
+      },
+      {
+        "name": "bétaïne"
+      }
+    ],
+    "usage": "Peaux déshydratées",
+    "price": 169,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S04",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-006",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Sérum",
+    "name": "Sérum Éclat Safran & Vitamine C",
+    "format": "30 ml",
+    "description": "Aide à raviver l’éclat et à unifier visuellement le teint.",
+    "ingredients": [
+      {
+        "name": "Safran"
+      },
+      {
+        "name": "dérivé de vitamine C"
+      },
+      {
+        "name": "niacinamide"
+      }
+    ],
+    "usage": "Teint terne",
+    "price": 179,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S04",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-007",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Crème de jour",
+    "name": "Crème Confort Miel & Argan",
+    "format": "50 ml",
+    "description": "Hydrate et protège le confort de la peau au quotidien.",
+    "ingredients": [
+      {
+        "name": "Miel"
+      },
+      {
+        "name": "huile d’argan"
+      },
+      {
+        "name": "squalane végétal"
+      }
+    ],
+    "usage": "Peaux normales à sèches",
+    "price": 149,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03 / S04",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-008",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Crème de nuit",
+    "name": "Crème de Nuit Figue de Barbarie",
+    "format": "50 ml",
+    "description": "Soin de nuit nourrissant à la texture enveloppante.",
+    "ingredients": [
+      {
+        "name": "Figue de Barbarie"
+      },
+      {
+        "name": "argan"
+      },
+      {
+        "name": "beurre de karité"
+      }
+    ],
+    "usage": "Peaux sèches",
+    "price": 179,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-009",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Masque",
+    "name": "Masque Purifiant Argile Blanche",
+    "format": "100 ml",
+    "description": "Nettoie les pores et laisse la peau douce après rinçage.",
+    "ingredients": [
+      {
+        "name": "Argile blanche"
+      },
+      {
+        "name": "poudre d’argan"
+      },
+      {
+        "name": "aloe vera"
+      }
+    ],
+    "usage": "Peaux mixtes à grasses",
+    "price": 129,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-VI-010",
+    "brand": "MIELMAR",
+    "category": "Visage",
+    "form_type": "Gommage",
+    "name": "Gommage Doux Rose & Amande",
+    "format": "75 ml",
+    "description": "Exfolie doucement la peau pour une texture plus lisse.",
+    "ingredients": [
+      {
+        "name": "Poudre d’amande"
+      },
+      {
+        "name": "rose"
+      },
+      {
+        "name": "huile d’argan"
+      }
+    ],
+    "usage": "Tous types de peau",
+    "price": 119,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S03 / S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-001",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Gel douche",
+    "name": "Gel Douche Fleur d’Oranger",
+    "format": "500 ml",
+    "description": "Nettoie le corps avec une mousse douce et un parfum floral.",
+    "ingredients": [
+      {
+        "name": "Fleur d’oranger"
+      },
+      {
+        "name": "aloe vera"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Usage quotidien",
+    "price": 99,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S01 / S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-002",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Savon",
+    "name": "Savon Surgras Miel & Argan",
+    "format": "100 g",
+    "description": "Savon doux pour le nettoyage des mains et du corps.",
+    "ingredients": [
+      {
+        "name": "Miel"
+      },
+      {
+        "name": "huile d’argan"
+      },
+      {
+        "name": "beurre de karité"
+      }
+    ],
+    "usage": "Peaux normales à sèches",
+    "price": 49,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S01",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-003",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Lait corporel",
+    "name": "Lait Corps Argan & Aloe",
+    "format": "250 ml",
+    "description": "Hydrate le corps avec une texture légère à absorption rapide.",
+    "ingredients": [
+      {
+        "name": "Argan"
+      },
+      {
+        "name": "aloe vera"
+      },
+      {
+        "name": "glycérine"
+      }
+    ],
+    "usage": "Tous types de peau",
+    "price": 119,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S01 / S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-004",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Beurre corporel",
+    "name": "Beurre Corps Karité & Miel",
+    "format": "200 ml",
+    "description": "Soin riche pour les zones sèches et inconfortables.",
+    "ingredients": [
+      {
+        "name": "Karité"
+      },
+      {
+        "name": "miel"
+      },
+      {
+        "name": "huile d’amande douce"
+      }
+    ],
+    "usage": "Peaux très sèches",
+    "price": 139,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-005",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Gommage",
+    "name": "Gommage Corps Sucre & Agrumes",
+    "format": "200 g",
+    "description": "Exfolie le corps avec des grains de sucre et une base huileuse.",
+    "ingredients": [
+      {
+        "name": "Sucre"
+      },
+      {
+        "name": "huile d’argan"
+      },
+      {
+        "name": "agrumes"
+      }
+    ],
+    "usage": "Une à deux fois par semaine",
+    "price": 109,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-006",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Huile de soin",
+    "name": "Huile Corps Relaxante Fleur d’Oranger",
+    "format": "100 ml",
+    "description": "Huile de massage parfumée pour une routine de détente.",
+    "ingredients": [
+      {
+        "name": "Amande douce"
+      },
+      {
+        "name": "argan"
+      },
+      {
+        "name": "fleur d’oranger"
+      }
+    ],
+    "usage": "Massage et soin corporel",
+    "price": 129,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-007",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Crème mains",
+    "name": "Crème Mains Miel & Amande",
+    "format": "50 ml",
+    "description": "Nourrit les mains sèches sans fini collant.",
+    "ingredients": [
+      {
+        "name": "Miel"
+      },
+      {
+        "name": "amande douce"
+      },
+      {
+        "name": "karité"
+      }
+    ],
+    "usage": "Mains sèches",
+    "price": 59,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-CO-008",
+    "brand": "MIELMAR",
+    "category": "Corps",
+    "form_type": "Baume pieds",
+    "name": "Baume Pieds Menthe & Karité",
+    "format": "75 ml",
+    "description": "Assouplit les zones rugueuses et apporte une sensation de fraîcheur.",
+    "ingredients": [
+      {
+        "name": "Karité"
+      },
+      {
+        "name": "menthe"
+      },
+      {
+        "name": "urée"
+      }
+    ],
+    "usage": "Pieds secs",
+    "price": 79,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S05",
+    "notes": ""
+  },
+  {
+    "sku": "MIE-FB-001",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Magnésium & Vitamine B6",
+    "format": "60 gélules",
+    "description": "Complément pour accompagner les périodes de fatigue passagère.",
+    "ingredients": [
+      {
+        "name": "Magnésium"
+      },
+      {
+        "name": "vitamine B6"
+      }
+    ],
+    "usage": "Adulte — étiquetage à valider",
+    "price": 149,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-002",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Vitamine D3",
+    "format": "30 gélules",
+    "description": "Apport quotidien de vitamine D3 selon les conseils d’utilisation.",
+    "ingredients": [
+      {
+        "name": "Vitamine D3"
+      }
+    ],
+    "usage": "Adulte — étiquetage à valider",
+    "price": 129,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-003",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Vitamine C & Zinc",
+    "format": "60 comprimés",
+    "description": "Association de vitamine C et de zinc pour la routine quotidienne.",
+    "ingredients": [
+      {
+        "name": "Vitamine C"
+      },
+      {
+        "name": "zinc"
+      }
+    ],
+    "usage": "Adulte — étiquetage à valider",
+    "price": 139,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-004",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Collagène Marin Neutre",
+    "format": "200 g",
+    "description": "Poudre à diluer, sans arôme, destinée à une routine nutritionnelle.",
+    "ingredients": [
+      {
+        "name": "Peptides de collagène marin"
+      }
+    ],
+    "usage": "Adulte — allergène poisson",
+    "price": 249,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-005",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Propolis & Miel",
+    "format": "30 gélules",
+    "description": "Formule à base de propolis et de miel pour une utilisation saisonnière.",
+    "ingredients": [
+      {
+        "name": "Propolis"
+      },
+      {
+        "name": "poudre de miel"
+      }
+    ],
+    "usage": "Adulte — allergènes à vérifier",
+    "price": 159,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-006",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Mélatonine Sommeil",
+    "format": "30 comprimés",
+    "description": "Format un mois à prendre selon les conseils d’utilisation validés.",
+    "ingredients": [
+      {
+        "name": "Mélatonine"
+      }
+    ],
+    "usage": "Adulte — dosage à valider",
+    "price": 199,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-FB-007",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Superaliment",
+    "name": "Spiruline Pure",
+    "format": "100 g",
+    "description": "Poudre de spiruline à intégrer dans une alimentation variée.",
+    "ingredients": [
+      {
+        "name": "Spiruline"
+      }
+    ],
+    "usage": "Usage alimentaire",
+    "price": 119,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06 / S08",
+    "notes": "Contrôle qualité et analyses requis"
+  },
+  {
+    "sku": "MIE-FB-008",
+    "brand": "MIELMAR",
+    "category": "Forme et bien-être",
+    "form_type": "Complément alimentaire",
+    "name": "Ginseng Énergie",
+    "format": "30 gélules",
+    "description": "Formule à base de ginseng pour les périodes actives.",
+    "ingredients": [
+      {
+        "name": "Extrait de ginseng"
+      }
+    ],
+    "usage": "Adulte — étiquetage à valider",
+    "price": 149,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S06",
+    "notes": "Vérification réglementaire obligatoire"
+  },
+  {
+    "sku": "MIE-EP-001",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Miel",
+    "name": "Miel d’Oranger du Maroc",
+    "format": "250 g",
+    "description": "Miel floral au goût doux pour tartines, boissons et recettes.",
+    "ingredients": [
+      {
+        "name": "Miel d’oranger"
+      }
+    ],
+    "usage": "Aliment",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S07",
+    "notes": "Origine et analyses à confirmer"
+  },
+  {
+    "sku": "MIE-EP-002",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Miel",
+    "name": "Miel d’Argan",
+    "format": "250 g",
+    "description": "Miel de caractère à proposer en pot de verre.",
+    "ingredients": [
+      {
+        "name": "Miel d’argan"
+      }
+    ],
+    "usage": "Aliment",
+    "price": 129,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S07",
+    "notes": "Origine et analyses à confirmer"
+  },
+  {
+    "sku": "MIE-EP-003",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Pâte à tartiner",
+    "name": "Amlou Amande & Argan",
+    "format": "250 g",
+    "description": "Pâte à tartiner marocaine à base d’amandes, d’argan et de miel.",
+    "ingredients": [
+      {
+        "name": "Amandes"
+      },
+      {
+        "name": "huile d’argan"
+      },
+      {
+        "name": "miel"
+      }
+    ],
+    "usage": "Aliment — fruits à coque",
+    "price": 139,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S07",
+    "notes": "Recette et allergènes à valider"
+  },
+  {
+    "sku": "MIE-EP-004",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Huile alimentaire",
+    "name": "Huile d’Argan Alimentaire",
+    "format": "250 ml",
+    "description": "Huile d’argan torréfiée pour assaisonnement et cuisine.",
+    "ingredients": [
+      {
+        "name": "Huile d’argan alimentaire"
+      }
+    ],
+    "usage": "Aliment",
+    "price": 249,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S07",
+    "notes": "Origine et qualité à confirmer"
+  },
+  {
+    "sku": "MIE-EP-005",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Infusion",
+    "name": "Infusion Verveine & Fleur d’Oranger",
+    "format": "20 sachets",
+    "description": "Infusion aromatique sans théine pour la fin de journée.",
+    "ingredients": [
+      {
+        "name": "Verveine"
+      },
+      {
+        "name": "fleur d’oranger"
+      }
+    ],
+    "usage": "Boisson chaude",
+    "price": 69,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S08",
+    "notes": "Composition à valider"
+  },
+  {
+    "sku": "MIE-EP-006",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Granola",
+    "name": "Granola Amande, Miel & Sésame",
+    "format": "300 g",
+    "description": "Mélange croustillant pour petit-déjeuner ou collation.",
+    "ingredients": [
+      {
+        "name": "Avoine"
+      },
+      {
+        "name": "amande"
+      },
+      {
+        "name": "miel"
+      },
+      {
+        "name": "sésame"
+      }
+    ],
+    "usage": "Aliment — gluten et fruits à coque",
+    "price": 89,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S08",
+    "notes": "Recette et allergènes à valider"
+  },
+  {
+    "sku": "MIE-EP-007",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Pâte de dattes",
+    "name": "Crème de Dattes & Cannelle",
+    "format": "250 g",
+    "description": "Préparation fruitée à tartiner ou à utiliser en pâtisserie.",
+    "ingredients": [
+      {
+        "name": "Dattes"
+      },
+      {
+        "name": "cannelle"
+      }
+    ],
+    "usage": "Aliment",
+    "price": 75,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S08",
+    "notes": "Recette à valider"
+  },
+  {
+    "sku": "MIE-EP-008",
+    "brand": "MIELMAR",
+    "category": "Épicerie",
+    "form_type": "Miel aromatisé",
+    "name": "Miel au Safran",
+    "format": "200 g",
+    "description": "Miel délicatement parfumé au safran pour boissons et desserts.",
+    "ingredients": [
+      {
+        "name": "Miel"
+      },
+      {
+        "name": "safran"
+      }
+    ],
+    "usage": "Aliment",
+    "price": 159,
+    "currency": "MAD",
+    "stock": 0,
+    "is_active": false,
+    "source_ref": "S07",
+    "notes": "Origine et dosage à confirmer"
+  }
+]

@@ -1,0 +1,207 @@
+from __future__ import annotations
+
+import json
+from datetime import UTC, datetime
+from typing import Any
+
+from sqlalchemy import or_, func, select
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from app.models.ai_marketing import AIMarketingCampaign
+
+
+class MarketingRepository:
+    def __init__(self, session: AsyncSession) -> None:
+        self.session = session
+
+    async def create(self, data: dict[str, Any]) -> AIMarketingCampaign:
+        values = dict(data)
+        channels = values.pop("channels", [])
+        hashtags = values.pop("hashtags", [])
+        product_ids = values.pop("product_ids", [])
+        selection_scores = values.pop("selection_scores", [])
+        campaign = AIMarketingCampaign(
+            **values,
+            channels_json=json.dumps(channels, ensure_ascii=False),
+            hashtags_json=json.dumps(hashtags, ensure_ascii=False),
+            product_ids_json=json.dumps(product_ids),
+            selection_scores_json=json.dumps(
+                selection_scores,
+                ensure_ascii=False,
+            ),
+        )
+        self.session.add(campaign)
+        await self.session.flush()
+        await self.session.refresh(campaign)
+        return campaign
+
+    async def get(self, campaign_id: int) -> AIMarketingCampaign | None:
+        return await self.session.get(AIMarketingCampaign, campaign_id)
+
+    async def list(
+        self,
+        *,
+        page: int,
+        page_size: int,
+        campaign_type: str | None = None,
+        campaign_status: str | None = None,
+    ) -> tuple[list[AIMarketingCampaign], int]:
+        conditions = []
+        if campaign_type:
+            conditions.append(
+                AIMarketingCampaign.campaign_type == campaign_type
+            )
+        if campaign_status:
+            conditions.append(AIMarketingCampaign.status == campaign_status)
+        total = int(
+            (
+                await self.session.execute(
+                    select(func.count(AIMarketingCampaign.id)).where(
+                        *conditions
+                    )
+                )
+            ).scalar_one()
+        )
+        result = await self.session.execute(
+            select(AIMarketingCampaign)
+            .where(*conditions)
+            .order_by(
+                AIMarketingCampaign.updated_at.desc(),
+                AIMarketingCampaign.id.desc(),
+            )
+            .offset((page - 1) * page_size)
+            .limit(page_size)
+        )
+        return list(result.scalars().all()), total
+
+    async def recent_promoted_product_counts(
+        self,
+        *,
+        limit: int = 20,
+    ) -> dict[int, int]:
+        result = await self.session.execute(
+            select(AIMarketingCampaign)
+            .where(
+                AIMarketingCampaign.campaign_type == "promotion",
+                AIMarketingCampaign.status.in_(["draft", "approved"]),
+            )
+            .order_by(
+                AIMarketingCampaign.created_at.desc(),
+                AIMarketingCampaign.id.desc(),
+            )
+            .limit(limit)
+        )
+        counts: dict[int, int] = {}
+        for campaign in result.scalars().all():
+            for product_id in set(campaign.product_ids):
+                counts[product_id] = counts.get(product_id, 0) + 1
+        return counts
+
+    async def update(
+        self,
+        campaign: AIMarketingCampaign,
+        data: dict[str, Any],
+    ) -> AIMarketingCampaign:
+        values = dict(data)
+        if "channels" in values:
+            campaign.channels_json = json.dumps(
+                values.pop("channels") or [],
+                ensure_ascii=False,
+            )
+        if "hashtags" in values:
+            campaign.hashtags_json = json.dumps(
+                values.pop("hashtags") or [],
+                ensure_ascii=False,
+            )
+        if "product_ids" in values:
+            campaign.product_ids_json = json.dumps(
+                values.pop("product_ids") or []
+            )
+        if "selection_scores" in values:
+            campaign.selection_scores_json = json.dumps(
+                values.pop("selection_scores") or [],
+                ensure_ascii=False,
+            )
+        for field, value in values.items():
+            setattr(campaign, field, value)
+        campaign.status = "draft"
+        campaign.approved_by = None
+        campaign.approved_at = None
+        campaign.updated_at = datetime.now(UTC)
+        await self.session.flush()
+        await self.session.refresh(campaign)
+        return campaign
+
+    async def latest_active_promotion(
+        self,
+        *,
+        now: datetime,
+    ) -> AIMarketingCampaign | None:
+        result = await self.session.execute(
+            select(AIMarketingCampaign)
+            .where(
+                AIMarketingCampaign.campaign_type == "promotion",
+                AIMarketingCampaign.status == "approved",
+                or_(
+                    AIMarketingCampaign.starts_at.is_(None),
+                    AIMarketingCampaign.starts_at <= now,
+                ),
+                or_(
+                    AIMarketingCampaign.ends_at.is_(None),
+                    AIMarketingCampaign.ends_at >= now,
+                ),
+            )
+            .order_by(
+                AIMarketingCampaign.approved_at.desc(),
+                AIMarketingCampaign.id.desc(),
+            )
+            .limit(1)
+        )
+        return result.scalar_one_or_none()
+
+    async def active_promotions(self, *, now: datetime) -> list[AIMarketingCampaign]:
+        result = await self.session.execute(
+            select(AIMarketingCampaign)
+            .where(
+                AIMarketingCampaign.campaign_type == "promotion",
+                AIMarketingCampaign.status == "approved",
+                or_(
+                    AIMarketingCampaign.starts_at.is_(None),
+                    AIMarketingCampaign.starts_at <= now,
+                ),
+                or_(
+                    AIMarketingCampaign.ends_at.is_(None),
+                    AIMarketingCampaign.ends_at >= now,
+                ),
+            )
+            .order_by(
+                AIMarketingCampaign.approved_at.desc(),
+                AIMarketingCampaign.id.desc(),
+            )
+        )
+        return list(result.scalars().all())
+
+    async def approve(
+        self,
+        campaign: AIMarketingCampaign,
+        *,
+        approved_by: int,
+    ) -> AIMarketingCampaign:
+        now = datetime.now(UTC)
+        campaign.status = "approved"
+        campaign.approved_by = approved_by
+        campaign.approved_at = now
+        campaign.updated_at = now
+        await self.session.flush()
+        await self.session.refresh(campaign)
+        return campaign
+
+    async def archive(
+        self,
+        campaign: AIMarketingCampaign,
+    ) -> AIMarketingCampaign:
+        campaign.status = "archived"
+        campaign.updated_at = datetime.now(UTC)
+        await self.session.flush()
+        await self.session.refresh(campaign)
+        return campaign

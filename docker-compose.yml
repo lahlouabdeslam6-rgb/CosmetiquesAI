@@ -1,0 +1,202 @@
+name: cosmetiques-ai
+services:
+  mongo:
+    image: mongo:8
+    restart: unless-stopped
+
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DATABASE}
+
+    ports:
+      - "127.0.0.1:${MONGO_HOST_PORT}:27017"
+
+    volumes:
+      - mongo_data:/data/db
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "mongosh",
+          "--quiet",
+          "--username",
+          "${MONGO_ROOT_USERNAME}",
+          "--password",
+          "${MONGO_ROOT_PASSWORD}",
+          "--authenticationDatabase",
+          "admin",
+          "--eval",
+          "db.adminCommand('ping').ok"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:8-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "127.0.0.1:${REDIS_HOST_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  qdrant:
+    image: qdrant/qdrant:v1.15.4
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${QDRANT_HTTP_HOST_PORT:-6333}:6333"
+      - "127.0.0.1:${QDRANT_GRPC_HOST_PORT:-6334}:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "bash -c ':> /dev/tcp/127.0.0.1/6333'"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${OLLAMA_HOST_PORT:-11435}:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      start_period: 10s
+
+  n8n:
+    image: n8nio/n8n:2.31.7
+    restart: unless-stopped
+    environment:
+      N8N_HOST: localhost
+      N8N_WEBHOOK_URL: http://localhost:5688/
+      N8N_EDITOR_BASE_URL: http://localhost:5688/
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_PORT: 5678
+      N8N_PROTOCOL: http
+      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:-local-n8n-key-change-me}
+      N8N_USER_MANAGEMENT_DISABLED: "false"
+      N8N_UNVERIFIED_PACKAGES_ENABLED: "false"
+      N8N_RUNNERS_TASK_TIMEOUT: "60"
+      N8N_COMPRESSION_NODE_MAX_DECOMPRESSED_SIZE_BYTES: "268435456"
+      N8N_COMPRESSION_NODE_MAX_ZIP_ENTRIES: "1000"
+      GENERIC_TIMEZONE: Africa/Casablanca
+      TZ: Africa/Casablanca
+      AUTOMATION_API_KEY: ${AUTOMATION_API_KEY:-local-automation-key-change-me}
+    ports:
+      - "127.0.0.1:${N8N_HOST_PORT:-5678}:5678"
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./docker/n8n/workflows:/workflows:ro
+    entrypoint: ["/bin/sh", "/workflows/entrypoint.sh"]
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:5678/healthz').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:8010:8000"
+    volumes:
+      - sqlite_data:/app/data
+      - product_images:/app/app/static/uploads/products
+      - pack_images:/app/app/static/uploads/packs
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      qdrant:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: same-origin
+    ports:
+      - "127.0.0.1:5181:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  demo-gateway:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:5180:80"
+    volumes:
+      - ./docker/nginx/demo.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+      frontend:
+        condition: service_started
+
+  demo-tunnel:
+    image: cloudflare/cloudflared:latest
+    profiles: ["share"]
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://demo-gateway:80
+    depends_on:
+      demo-gateway:
+        condition: service_started
+
+volumes:
+  mongo_data:
+  sqlite_data:
+  product_images:
+  pack_images:
+  redis_data:
+  qdrant_data:
+  ollama_data:
+  n8n_data:

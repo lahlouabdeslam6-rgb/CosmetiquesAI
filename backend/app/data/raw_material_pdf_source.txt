@@ -1,0 +1,395 @@
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+CATALOGUE DES MATIERES
+PREMIERES COSMETIQUES
+Guide pratique pour la formulation de cremes, serums, shampoings, gels douche, 
+soins capillaires, baumes et produits d’hygiene
+Plus de 200 ingredients classes par fonction
++ Selection des 50 matieres premieres essentielles pour demarrer un 
+laboratoire
+Edition 2026
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+1. Comment utiliser ce catalogue
+Ce document regroupe les principales familles de matieres premieres utilisees en formulation cosmetique. Pour chaque 
+ingredient, on indique sa fonction principale, une plage de dosage indicative et des exemples de produits dans lesquels il 
+peut etre utilise.
+Les dosages ne constituent pas des formules pretes a commercialiser. Ils doivent etre ajustes en fonction des specifications 
+du fournisseur, du pH, de la solubilite, des interactions avec les autres matieres, de la legislation du marche cible et des 
+essais de stabilite et de securite.
+Pour les conservateurs, filtres UV, colorants, retinoides, acides exfoliants, agents depigmentants et autres actifs sensibles, la 
+conformite reglementaire doit toujours etre verifiee avant utilisation.
+2. Solvants, humectants et bases aqueuses
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Aqua Solvant principal qsp 100 % Tous produits aqueux
+Glycerin Humectant 1-10 % Cremes, serums, gels, shampoings
+Propanediol Humectant / solvant 1-10 % Serums, cremes, deodorants
+Propylene Glycol Solvant / humectant 1-10 % Cremes, gels, actifs
+Butylene Glycol Humectant / solvant 1-10 % Serums, essences, cremes
+Pentylene Glycol Humectant / booster conservation 1-5 % Serums, cremes
+Sorbitol Humectant 1-10 % Gels, dentifrices, cremes
+Sodium PCA Humectant NMF 0.2-5 % Serums, cremes
+Betaine Humectant / osmoprotecteur 1-5 % Cremes, shampoings
+Sodium Lactate Humectant / tampon 0.5-5 % Cremes, lotions
+Trehalose Humectant 0.5-5 % Serums, soins hydratants
+Saccharide Isomerate Hydratant longue duree 0.5-5 % Cremes, serums
+Urea Humectant / keratolytique selon 
+dose
+2-10 % Cremes corps, pieds
+Hydroxyethyl Urea Humectant 1-10 % Serums, cremes
+Aloe Barbadensis Leaf Juice Hydratant / apaisant 1-100 % Gels, cremes, apres-soleil
+Rosa Damascena Flower Water Hydrolat 1-100 % Toniques, sprays
+Hamamelis Virginiana Water Hydrolat / astringent 1-100 % Toniques, soins peaux grasses
+Alcohol Denat. Solvant / sensoriel 0-70 % Parfums, sprays, gels
+Ethanol Solvant 0-80 % Parfums, hydroalcooliques
+PEG-400 Solvant / humectant 1-10 % Solutions, gels
+3. Huiles vegetales et corps gras
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Argania Spinosa Kernel Oil Emollient / nourrissant 1-100 % Cremes, huiles, cheveux
+Simmondsia Chinensis Seed Oil Emollient stable 1-100 % Serums huileux, cheveux
+Prunus Amygdalus Dulcis Oil Emollient 1-100 % Cremes, huiles massage
+Persea Gratissima Oil Nourrissant 1-50 % Cremes riches, cheveux
+Cocos Nucifera Oil Emollient 1-100 % Baumes, savons, cheveux
+Helianthus Annuus Seed Oil Emollient / support 1-100 % Cremes, macerats
+Olea Europaea Fruit Oil Emollient 1-100 % Baumes, savons, cremes
+Ricinus Communis Seed Oil Viscosant / brillant 1-100 % Levree, cheveux, maquillage
+Vitis Vinifera Seed Oil Emollient leger 1-100 % Cremes, huiles
+Nigella Sativa Seed Oil Emollient 0.5-20 % Soins visage, cuir chevelu
+Macadamia Integrifolia Seed Oil Emollient 1-50 % Cremes, cheveux
+Rosa Canina Fruit Oil Emollient / soin 0.5-20 % Serums huileux
+Punica Granatum Seed Oil Emollient antioxydant 0.5-10 % Serums, cremes
+Cannabis Sativa Seed Oil Emollient 1-50 % Cremes, huiles
+Oryza Sativa Bran Oil Emollient 1-50 % Cremes, cheveux
+Sesamum Indicum Seed Oil Emollient 1-100 % Huiles, cremes
+Carthamus Tinctorius Seed Oil Emollient 1-100 % Cremes, huiles
+Adansonia Digitata Seed Oil Emollient 0.5-20 % Corps, cheveux
+Opuntia Ficus-Indica Seed Oil Emollient premium 0.2-10 % Serums visage
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+Limnanthes Alba Seed Oil Emollient stable 1-30 % Cremes, maquillage
+4. Beurres, cires et agents structurants
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Butyrospermum Parkii Butter Beurre nourrissant 1-100 % Baumes, cremes, cheveux
+Theobroma Cacao Seed Butter Beurre structurant 1-100 % Baumes, sticks
+Mangifera Indica Seed Butter Beurre emollient 1-100 % Baumes, cremes
+Cera Alba Cire structurante 1-20 % Baumes, sticks
+Copernicia Cerifera Wax Cire dure 0.5-15 % Sticks, maquillage
+Candelilla Cera Cire vegetale 0.5-15 % Sticks, baumes
+Cetyl Alcohol Co-emulsifiant / epaississant 1-5 % Cremes, apres-shampoings
+Cetearyl Alcohol Epaississant / co-emulsifiant 1-10 % Cremes, masques cheveux
+Stearyl Alcohol Structurant 0.5-5 % Cremes, sticks
+Behenyl Alcohol Structurant 0.5-5 % Cremes, capillaires
+Cetyl Palmitate Agent de consistance 0.5-10 % Cremes, baumes
+Ozokerite Cire minerale 1-20 % Sticks, maquillage
+Microcrystalline Wax Cire structurante 1-20 % Baumes, sticks
+Hydrogenated Vegetable Oil Structurant 1-20 % Baumes, sticks
+5. Emollients, esters et sensoriels
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Caprylic/Capric Triglyceride Emollient polyvalent 1-30 % Cremes, serums huileux
+Dicaprylyl Carbonate Emollient toucher sec 1-20 % Cremes, solaires
+Coco-Caprylate/Caprate Emollient leger 1-20 % Cremes, huiles seches
+C12-15 Alkyl Benzoate Emollient / solvant lipophile 1-25 % Solaires, cremes
+Isopropyl Myristate Emollient glissant 1-15 % Cremes, huiles
+Isopropyl Palmitate Emollient 1-15 % Cremes, maquillage
+Ethylhexyl Palmitate Emollient 1-20 % Cremes, nettoyants huileux
+Triethylhexanoin Emollient leger 1-20 % Maquillage, serums
+Isoamyl Laurate Emollient toucher sec 1-20 % Cremes, solaires
+Squalane Emollient 1-30 % Serums, cremes
+Hydrogenated Polyisobutene Emollient 1-30 % Gloss, soins levres
+Diisopropyl Sebacate Emollient 1-20 % Solaires, cremes
+Neopentyl Glycol Diheptanoate Emollient sec 1-15 % Maquillage, solaires
+Octyldodecanol Emollient / solvant 1-20 % Maquillage, solaires
+Ethylhexyl Cocoate Emollient 1-20 % Cremes, huiles
+6. Emulsifiants et solubilisants
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Glyceryl Stearate Emulsifiant / emollient 1-8 % Cremes, laits
+PEG-100 Stearate Emulsifiant O/W 0.5-5 % Cremes, laits
+Ceteareth-20 Emulsifiant 0.5-5 % Cremes
+Ceteareth-25 Emulsifiant 0.5-5 % Cremes
+Polysorbate 20 Solubilisant 0.1-10 % Sprays, toniques
+Polysorbate 60 Emulsifiant 0.5-5 % Cremes
+Polysorbate 80 Solubilisant / emulsifiant 0.1-10 % Huiles dispersibles, serums
+Sorbitan Stearate Co-emulsifiant 0.5-5 % Cremes
+Sorbitan Oleate Co-emulsifiant W/O 0.5-5 % Cremes riches
+Glyceryl Stearate Citrate Emulsifiant 1-5 % Cremes
+Sodium Stearoyl Lactylate Emulsifiant 0.2-3 % Cremes
+Polyglyceryl-3 Methylglucose 
+Distearate
+Emulsifiant 1-5 % Cremes
+Cetearyl Glucoside Emulsifiant 0.5-5 % Cremes
+Cetearyl Olivate Emulsifiant 1-5 % Cremes
+Sorbitan Olivate Co-emulsifiant 0.5-5 % Cremes
+Polyglyceryl-4 Oleate Emulsifiant W/O / nettoyant huileux 1-10 % Huiles nettoyantes
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+PEG-40 Hydrogenated Castor Oil Solubilisant 0.1-10 % Parfums, toniques
+PPG-26-Buteth-26 Solubilisant 0.1-5 % Sprays, toniques
+Lecithin Emulsifiant / liposome 0.5-5 % Cremes, serums
+Sucrose Stearate Emulsifiant 0.5-5 % Cremes
+7. Tensioactifs nettoyants
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Sodium Laureth Sulfate Anionique, mousse 5-20 % Shampoings, gels douche
+Sodium Lauryl Sulfate Anionique puissant 1-15 % Nettoyants
+Sodium Cocoyl Isethionate Anionique doux 5-40 % Shampoings solides, syndets
+Sodium Lauroyl Methyl Isethionate Anionique doux 3-20 % Shampoings, nettoyants
+Sodium Lauroyl Sarcosinate Anionique doux 2-15 % Nettoyants visage
+Disodium Laureth Sulfosuccinate Anionique doux 3-20 % Shampoings, gels douche
+Sodium Coco-Sulfate Anionique 5-20 % Shampoings
+Cocamidopropyl Betaine Amphotere 3-15 % Shampoings, gels douche
+Coco-Betaine Amphotere 2-15 % Nettoyants
+Sodium Cocoamphoacetate Amphotere doux 2-15 % Produits bebe, visage
+Disodium Cocoamphodiacetate Amphotere 2-15 % Nettoyants doux
+Decyl Glucoside Non ionique 2-20 % Visage, bebe
+Coco Glucoside Non ionique 2-20 % Shampoings, gels douche
+Lauryl Glucoside Non ionique 2-20 % Nettoyants
+Caprylyl/Capryl Glucoside Non ionique / solubilisant 0.5-10 % Nettoyants, sprays
+Sodium Methyl Cocoyl Taurate Anionique doux 2-20 % Nettoyants visage
+Sodium Cocoyl Glutamate Anionique doux 1-15 % Visage, bebe
+Disodium Cocoyl Glutamate Anionique doux 1-15 % Nettoyants doux
+Potassium Cocoyl Glycinate Anionique doux 2-15 % Nettoyants visage
+Sodium Lauroyl Lactylate Tensioactif / emulsifiant 0.5-5 % Nettoyants, soins
+8. Gelifiants, epaississants et stabilisants
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Carbomer Gelifiant 0.1-1 % Gels, serums, cremes
+Acrylates/C10-30 Alkyl Acrylate 
+Crosspolymer
+Gelifiant / emulsifiant 0.1-1 % Gels, cremes
+Xanthan Gum Gelifiant naturel 0.1-1 % Gels, cremes
+Hydroxyethylcellulose Epaississant 0.2-2 % Gels, shampoings
+Hydroxypropyl Methylcellulose Epaississant 0.2-2 % Gels
+Cellulose Gum Epaississant 0.2-2 % Dentifrices, gels
+Sodium Carboxymethyl Cellulose Epaississant 0.2-2 % Gels, suspensions
+Guar Gum Epaississant 0.1-1 % Shampoings, gels
+Sclerotium Gum Gelifiant 0.1-1 % Serums, cremes
+Magnesium Aluminum Silicate Suspensif 0.5-5 % Masques, cremes
+Bentonite Argile / suspensif 1-20 % Masques
+Hectorite Rheologie 0.5-5 % Maquillage, gels
+Silica Epaississant / absorbant 0.5-10 % Gels, poudres
+Sodium Chloride Ajusteur viscosite 0.1-5 % Shampoings, gels douche
+Ammonium 
+Acryloyldimethyltaurate/VP 
+Copolymer
+Gelifiant 0.2-2 % Gels, cremes
+Polyacrylate Crosspolymer-6 Gelifiant 0.2-2 % Serums, gels
+Hydroxypropyl Starch Phosphate Epaississant 0.5-5 % Cremes, gels
+9. Actifs hydratants, apaisants et reparateurs
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Sodium Hyaluronate Hydratant filmogene 0.01-1 % Serums, cremes
+Hydrolyzed Hyaluronic Acid Hydratant 0.01-1 % Serums
+Panthenol Humectant / apaisant 0.5-5 % Cremes, cheveux
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+Allantoin Apaisant 0.1-0.5 % Cremes, gels
+Bisabolol Apaisant 0.1-1 % Cremes, apres-rasage
+Beta-Glucan Apaisant / hydratant 0.1-2 % Serums, cremes
+Centella Asiatica Extract Apaisant / soin 0.1-5 % Cremes, serums
+Madecassoside Apaisant 0.05-0.5 % Serums, cremes
+Calendula Officinalis Extract Apaisant 0.1-5 % Cremes
+Chamomilla Recutita Extract Apaisant 0.1-5 % Cremes, shampoings
+Avena Sativa Kernel Extract Apaisant 0.1-5 % Peaux sensibles
+Dipotassium Glycyrrhizate Apaisant 0.1-1 % Serums, soins sensibles
+Ectoin Osmoprotecteur 0.1-2 % Serums, cremes
+Ceramide NP Barriere cutanee 0.05-1 % Cremes reparatrices
+Cholesterol Barriere cutanee 0.05-1 % Cremes reparatrices
+10. Actifs eclat, exfoliation et anti-age
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Niacinamide Eclat / barriere / sebum 2-10 % Serums, cremes
+Alpha-Arbutin Eclat 0.2-2 % Serums
+Ascorbic Acid Antioxydant / eclat 5-20 % Serums acides
+3-O-Ethyl Ascorbic Acid Derive vitamine C 0.5-10 % Serums, cremes
+Ascorbyl Glucoside Derive vitamine C 1-5 % Serums
+Sodium Ascorbyl Phosphate Derive vitamine C 0.5-5 % Serums, soins imperfections
+Magnesium Ascorbyl Phosphate Derive vitamine C 1-10 % Cremes, serums
+Ferulic Acid Antioxydant 0.2-1 % Serums antioxydants
+Resveratrol Antioxydant 0.1-1 % Serums
+Azelaic Acid Soin imperfections / teint 5-20 % Cremes, gels
+Tranexamic Acid Eclat 1-5 % Serums
+Glycolic Acid AHA exfoliant 2-10 % cosmetique Toniques, peelings
+Lactic Acid AHA / humectant 1-10 % Toniques, cremes
+Mandelic Acid AHA 2-10 % Serums, peelings
+Salicylic Acid BHA 0.2-2 % Soins imperfections
+Gluconolactone PHA 2-15 % Toniques, serums
+Lactobionic Acid PHA 1-10 % Serums, peelings doux
+Retinol Retinoide 0.01-1 % selon marche Serums, cremes
+Retinal Retinoide 0.01-0.2 % Serums, cremes
+Bakuchiol Actif anti-age 0.5-1 % Serums, cremes
+Ubiquinone Coenzyme Q10 0.05-1 % Cremes, serums huileux
+Adenosine Anti-age 0.04-0.1 % Cremes, serums
+Acetyl Hexapeptide-8 Peptide 0.01-10 % selon solution Serums
+Palmitoyl Tripeptide-1 Peptide Selon fournisseur Serums, cremes
+Palmitoyl Tetrapeptide-7 Peptide Selon fournisseur Serums, cremes
+11. Ingredients capillaires et conditionneurs
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Behentrimonium Chloride Conditionneur cationique 0.5-5 % Apres-shampoings
+Behentrimonium Methosulfate Conditionneur / emulsifiant 1-10 % Masques cheveux
+Cetrimonium Chloride Conditionneur 0.2-3 % Apres-shampoings
+Stearamidopropyl Dimethylamine Conditionneur 0.5-3 % Apres-shampoings
+Polyquaternium-7 Conditionneur polymerique 0.2-5 % Shampoings
+Polyquaternium-10 Conditionneur / epaississant 0.1-1 % Shampoings
+Polyquaternium-37 Conditionneur / rheologie 0.2-3 % Capillaires
+Guar Hydroxypropyltrimonium 
+Chloride
+Conditionneur 0.1-1 % Shampoings
+Hydrolyzed Keratin Proteine hydrolysee 0.2-5 % Masques, serums cheveux
+Hydrolyzed Wheat Protein Proteine 0.2-5 % Shampoings, masques
+Hydrolyzed Rice Protein Proteine 0.2-5 % Capillaires
+Hydrolyzed Soy Protein Proteine 0.2-5 % Capillaires
+Hydrolyzed Collagen Filmogene 0.2-5 % Capillaires, peau
+Amodimethicone Silicone conditionneur 0.5-5 % Masques, serums cheveux
+Dimethicone Silicone emollient 0.2-10 % Cremes, cheveux
+Dimethiconol Silicone filmogene 0.1-5 % Serums cheveux
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+Phenyl Trimethicone Brillance / sensoriel 0.5-10 % Cheveux, maquillage
+Cyclopentasiloxane Silicone volatil 1-50 % selon reglementation Serums, antitranspirants
+12. Conservateurs, chelatants et antioxydants
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Phenoxyethanol Conservateur 0.5-1 % Produits aqueux
+Ethylhexylglycerin Booster conservation 0.2-1 % Produits aqueux
+Benzyl Alcohol Conservateur / parfum 0.2-1 % Cremes, gels
+Dehydroacetic Acid Conservateur 0.1-0.6 % Cremes, gels
+Sodium Benzoate Conservateur 0.1-1 % Formules acides
+Potassium Sorbate Conservateur 0.1-0.6 % Formules acides
+Benzoic Acid Conservateur 0.05-0.5 % Formules acides
+Sorbic Acid Conservateur 0.05-0.3 % Formules acides
+Caprylyl Glycol Humectant / booster conservation 0.2-1 % Cremes, serums
+Glyceryl Caprylate Co-emulsifiant / booster 0.2-1 % Cremes
+Disodium EDTA Chelatant 0.05-0.2 % Produits aqueux
+Tetrasodium EDTA Chelatant 0.05-0.2 % Nettoyants
+Sodium Phytate Chelatant 0.05-0.2 % Cosmetique naturelle
+Tetrasodium Glutamate Diacetate Chelatant 0.05-0.5 % Produits aqueux
+Tocopherol Antioxydant huileux 0.05-1 % Huiles, cremes
+Tocopheryl Acetate Vitamine E stable 0.1-5 % Cremes, huiles
+BHT Antioxydant 0.01-0.1 % Huiles, parfums
+Rosemary Leaf Extract Antioxydant 0.05-0.5 % Huiles
+13. Regulateurs de pH et agents techniques
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Citric Acid Acidifiant / tampon qsp pH Tous produits aqueux
+Lactic Acid Acidifiant / humectant qsp pH Shampoings, cremes
+Sodium Hydroxide Neutralisant qsp pH Gels carbomer
+Potassium Hydroxide Neutralisant qsp pH Savons, gels
+Arginine Neutralisant / actif qsp pH Gels, capillaires
+Tromethamine Neutralisant qsp pH Gels, cremes
+Sodium Citrate Tampon 0.05-1 % Solutions, cremes
+Sodium Bicarbonate Tampon / deodorant 0.1-10 % Deodorants, poudres
+Magnesium Sulfate Electrolyte / stabilisant 0.1-3 % Emulsions W/O
+Sodium Metabisulfite Antioxydant reducteur 0.01-0.2 % Formules sensibles
+14. Poudres, absorbants, pigments et nacres
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Kaolin Argile absorbante 1-100 % Masques, poudres
+Bentonite Argile absorbante 1-100 % Masques
+Silica Absorbant / matifiant 0.5-20 % Poudres, gels
+Talc Charge / glissant 1-90 % Poudres, maquillage
+Zea Mays Starch Absorbant 1-50 % Poudres, deodorants
+Oryza Sativa Starch Absorbant 1-50 % Poudres
+Tapioca Starch Absorbant 1-50 % Deodorants, poudres
+Calcium Carbonate Charge / abrasif doux 1-50 % Dentifrices, poudres
+Magnesium Carbonate Absorbant 1-20 % Poudres
+Zinc Oxide Opacifiant / protecteur selon usage 1-25 % Cremes, poudres
+Titanium Dioxide Pigment blanc / filtre UV selon grade 0.1-25 % Maquillage, solaires
+Iron Oxides CI 77491/2/9 Pigments 0.1-20 % Maquillage
+Mica Nacre / glissant 0.1-50 % Maquillage
+Ultramarines Pigments 0.1-10 % Maquillage
+Boron Nitride Glissant / soft focus 0.5-10 % Maquillage
+Nylon-12 Texture / soft focus 0.5-10 % Maquillage
+Polymethylsilsesquioxane Texture / matifiant 0.5-10 % Maquillage, cremes
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+15. Parfums, huiles essentielles et sensoriels
+INCI / ingredient Fonction principale Dosage indicatif Produits / usages
+Parfum Parfumant 0.05-2 % Tous produits parfumes
+Lavandula Angustifolia Oil Huile essentielle 0.05-1 % Soins, savons
+Mentha Piperita Oil Huile essentielle 0.01-0.5 % Capillaires, pieds
+Melaleuca Alternifolia Leaf Oil Huile essentielle 0.05-1 % Soins imperfections
+Rosmarinus Officinalis Leaf Oil Huile essentielle 0.05-1 % Capillaires
+Eucalyptus Globulus Leaf Oil Huile essentielle 0.01-0.5 % Soins corps
+Citrus Limon Peel Oil Huile essentielle 0.01-0.5 % Parfumerie, nettoyants
+Citrus Aurantium Dulcis Peel Oil Huile essentielle 0.01-0.5 % Parfumerie
+Vanillin Parfumant 0.01-0.5 % Baumes, parfums
+Menthol Rafraichissant 0.05-2 % Pieds, scalp, baumes
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+16. Les 50 matieres premieres essentielles pour demarrer un laboratoire
+Cette selection permet de couvrir une grande partie des prototypes courants : cremes, laits, serums, gels, shampoings, gels 
+douche, masques capillaires, baumes et huiles. Elle ne remplace pas les matieres specifiques necessaires a certains produits 
+reglementes ou techniques.
+N° Matiere premiere Pourquoi elle est utile
+1 Aqua Base aqueuse
+2 Glycerin Humectant universel
+3 Propanediol Humectant / solvant
+4 Sodium PCA Hydratant NMF
+5 Sodium Hyaluronate Hydratant premium
+6 Panthenol Apaisant / capillaire
+7 Niacinamide Actif multifonction
+8 Allantoin Apaisant
+9 Aloe Barbadensis Leaf Juice Hydratant / apaisant
+10 Caprylic/Capric Triglyceride Emollient
+11 Squalane Emollient premium
+12 Argan Oil Huile vegetale
+13 Jojoba Oil Huile stable
+14 Sunflower Oil Huile support
+15 Shea Butter Beurre nourrissant
+16 Cetearyl Alcohol Epaississant / stabilisant
+17 Cetyl Alcohol Structurant
+18 Glyceryl Stearate Emulsifiant
+19 PEG-100 Stearate Co-emulsifiant
+20 Cetearyl Olivate + Sorbitan Olivate Systeme emulsifiant
+21 Polysorbate 20 Solubilisant
+22 Carbomer Gelifiant
+23 Xanthan Gum Gelifiant naturel
+24 Hydroxyethylcellulose Epaississant
+25 Sodium Chloride Ajusteur viscosite
+26 Cocamidopropyl Betaine Tensioactif amphotere
+27 Decyl Glucoside Tensioactif doux
+28 Sodium Laureth Sulfate Tensioactif anionique
+29 Sodium Cocoyl Isethionate Tensioactif doux solide
+30 Sodium Cocoamphoacetate Tensioactif tres doux
+31 Behentrimonium Methosulfate Conditionneur capillaire
+32 Cetrimonium Chloride Conditionneur capillaire
+33 Polyquaternium-10 Conditionneur shampoing
+34 Hydrolyzed Keratin Actif capillaire
+35 Dimethicone Silicone emollient
+36 Amodimethicone Silicone capillaire
+37 Phenoxyethanol Conservateur
+38 Ethylhexylglycerin Booster conservateur
+39 Sodium Benzoate Conservateur acide
+40 Potassium Sorbate Conservateur acide
+41 Disodium EDTA Chelatant
+42 Tocopherol Antioxydant huileux
+43 Citric Acid Ajusteur pH
+44 Lactic Acid Ajusteur pH / AHA
+45 Sodium Hydroxide Neutralisant
+46 Kaolin Argile / absorbant
+47 Silica Matifiant / rheologie
+48 Parfum Sensoriel
+49 Ascorbic Acid ou derive stable Actif eclat
+50 Salicylic Acid Actif imperfections
+CATALOGUE TECHNIQUE - MATIERES PREMIERES COSMETIQUES
+Document de reference - formulation cosmetique | Les dosages sont indicatifs et doivent etre valides selon la formule et la reglementation applicable.
+17. Architecture type des principales formules
+Creme / lait: Eau + humectant + phase huileuse + emulsifiant + co-emulsifiant + epaississant + actifs + conservateur + 
+chelatant + ajusteur de pH.
+Serum aqueux: Eau + humectants + gelifiant + actifs hydrosolubles + conservateur + chelatant + ajusteur de pH.
+Shampoing: Eau + melange de tensioactifs + humectant + conditionneur eventuel + epaississant + conservateur + parfum + 
+ajusteur de pH.
+Gel douche: Eau + tensioactifs + humectant + epaississant + conservateur + parfum + ajusteur de pH.
+Apres-shampoing / masque: Eau + alcool gras + conditionneur cationique + huiles/emollients + actifs capillaires + 
+conservateur + parfum + ajusteur de pH.
+Baume anhydre: Huiles + beurres + cires + emollients + antioxydant + parfum eventuel.
+Huile seche: Emollients legers + huiles vegetales + antioxydant + parfum eventuel.
+Gel visage: Eau + humectant + gelifiant + actifs + conservateur + chelatant + correcteur de pH.
+18. Points de controle avant commercialisation
+ Verifier les fiches techniques, certificats d’analyse et recommandations de dosage du fournisseur.
+ Verifier la legislation cosmetique applicable au pays de commercialisation.
+ Controler le pH, l’aspect, l’odeur, la viscosite et la masse volumique selon le produit.
+ Realiser des essais de stabilite acceleree et a temperature ambiante.
+ Verifier la compatibilite formule/emballage.
+ Pour les produits aqueux, valider le systeme conservateur par une evaluation microbiologique appropriee, notamment 
+un challenge test lorsque requis.
+ Verifier les allergenes de parfum, restrictions IFRA et limites d’utilisation des huiles essentielles.
+ Verifier la photostabilite et les conditions de stockage des actifs sensibles comme vitamine C, retinoides et certains 
+extraits.
+ Conserver une tracabilite complete des lots de matieres premieres et des fabrications pilotes.
+Important : ce catalogue est un outil de travail et d’orientation. Une formule cosmetique commercialisable doit etre 
+developpee et validee avec des donnees fournisseurs, des controles qualite, une evaluation de securite et le respect de la 
+reglementation du marche cible.

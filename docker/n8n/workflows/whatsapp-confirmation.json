@@ -1,0 +1,46 @@
+{
+  "id": "mielmar-whatsapp-confirmation",
+  "name": "MIELMAR - Confirmation Agent WhatsApp",
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "nodes": [
+    {
+      "id": "confirmation-webhook",
+      "name": "Réponse WhatsApp confirmation",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "mielmar/order-confirmation",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "id": "confirmation-api",
+      "name": "Transmettre à Confirmation Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 0],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/api/automations/orders/{{ $json.body.order_id }}/confirmation",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "X-Automation-Key", "value": "={{ $env.AUTOMATION_API_KEY }}" }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ confirmed: Boolean($json.body.confirmed), customer_message: $json.body.message || null }) }}"
+      }
+    }
+  ],
+  "connections": {
+    "Réponse WhatsApp confirmation": {
+      "main": [[{ "node": "Transmettre à Confirmation Agent", "type": "main", "index": 0 }]]
+    }
+  }
+}

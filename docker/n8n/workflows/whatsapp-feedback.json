@@ -1,0 +1,46 @@
+{
+  "id": "mielmar-whatsapp-feedback",
+  "name": "MIELMAR - Feedback Agent WhatsApp",
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "nodes": [
+    {
+      "id": "feedback-webhook",
+      "name": "Réponse WhatsApp feedback",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "mielmar/order-feedback",
+        "responseMode": "lastNode"
+      }
+    },
+    {
+      "id": "feedback-api",
+      "name": "Transmettre à Feedback Agent",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [300, 0],
+      "parameters": {
+        "method": "POST",
+        "url": "=http://backend:8000/api/automations/orders/{{ $json.body.order_id }}/feedback",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "X-Automation-Key", "value": "={{ $env.AUTOMATION_API_KEY }}" }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ rating: Number($json.body.rating), comment: $json.body.comment || null, source: 'whatsapp' }) }}"
+      }
+    }
+  ],
+  "connections": {
+    "Réponse WhatsApp feedback": {
+      "main": [[{ "node": "Transmettre à Feedback Agent", "type": "main", "index": 0 }]]
+    }
+  }
+}

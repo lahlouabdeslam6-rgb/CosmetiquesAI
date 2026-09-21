@@ -1,0 +1,86 @@
+[
+  {
+    "id": 11,
+    "status": "review",
+    "error": null,
+    "plan": {
+      "photo": {
+        "background": "solid",
+        "background_color": "#ffffff",
+        "background_prompt": "",
+        "format": "square",
+        "product_position": "center",
+        "product_height": 0.66,
+        "light_color": "#ffffff",
+        "light_direction": "top",
+        "light_strength": 1.0,
+        "shadow": 0.0,
+        "reflection": 0.0
+      },
+      "video": {
+        "scene": {
+          "background": "solid",
+          "background_color": "#ffffff",
+          "background_prompt": "",
+          "format": "square",
+          "product_position": "center",
+          "product_height": 0.66,
+          "light_color": "#ffffff",
+          "light_direction": "top",
+          "light_strength": 1.0,
+          "shadow": 0.0,
+          "reflection": 0.0
+        },
+        "motion": "zoom_in",
+        "duration_seconds": 3,
+        "motion_amount": 0.06
+      },
+      "summary": "Photo : fond #ffffff, format carré, produit centré, sans reflet. Vidéo : fond #ffffff, format carré, produit centré, sans reflet, zoom avant, 3 secondes.",
+      "limitations": []
+    },
+    "image": "/static/uploads/products/ai/d780b53ad1eb4319b235e535d5238c22.webp",
+    "video": "/static/uploads/products/ai/d780b53ad1eb4319b235e535d5238c22.mp4"
+  },
+  {
+    "id": 12,
+    "status": "review",
+    "error": null,
+    "plan": {
+      "photo": {
+        "background": "solid",
+        "background_color": "#dd9933",
+        "background_prompt": "",
+        "format": "portrait",
+        "product_position": "center",
+        "product_height": 0.76,
+        "light_color": "#ffffff",
+        "light_direction": "top",
+        "light_strength": 1.0,
+        "shadow": 0.0,
+        "reflection": 0.0
+      },
+      "video": {
+        "scene": {
+          "background": "solid",
+          "background_color": "#dd9933",
+          "background_prompt": "",
+          "format": "portrait",
+          "product_position": "center",
+          "product_height": 0.76,
+          "light_color": "#ffffff",
+          "light_direction": "top",
+          "light_strength": 1.0,
+          "shadow": 0.0,
+          "reflection": 0.0
+        },
+        "motion": "zoom_out",
+        "duration_seconds": 8,
+        "motion_amount": 0.06
+      },
+      "summary": "Photo : fond #dd9933, format vertical 9:16, produit centré, sans reflet. Vidéo : fond #dd9933, format vertical 9:16, produit centré, sans reflet, zoom arrière, 8 secondes.",
+      "limitations": []
+    },
+    "image": "/static/uploads/products/ai/b07d62752f494cf2a54339abb9c573ad.webp",
+    "video": "/static/uploads/products/ai/b07d62752f494cf2a54339abb9c573ad.mp4"
+  }
+]
