@@ -1,3 +1,4 @@
+import inspect
 from typing import Any
 
 from pymongo import AsyncMongoClient
@@ -12,6 +13,13 @@ mongo_database: Any | None = None
 async def connect_mongodb() -> None:
     global mongo_client, mongo_database
 
+    if settings.demo_mode:
+        from mongomock_motor import AsyncMongoMockClient
+
+        mongo_client = AsyncMongoMockClient()
+        mongo_database = mongo_client[settings.mongodb_database]
+        return
+
     mongo_client = AsyncMongoClient(
         settings.mongodb_url,
         serverSelectionTimeoutMS=5000,
@@ -24,7 +32,9 @@ async def disconnect_mongodb() -> None:
     global mongo_client, mongo_database
 
     if mongo_client is not None:
-        await mongo_client.close()
+        result = mongo_client.close()
+        if inspect.isawaitable(result):
+            await result
     mongo_client = None
     mongo_database = None
 

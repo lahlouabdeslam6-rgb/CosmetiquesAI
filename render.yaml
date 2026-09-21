@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: mielmar-cosmetiques-api-lahlou
+    runtime: docker
+    plan: free
+    rootDir: backend
+    dockerfilePath: ./Dockerfile.render
+    healthCheckPath: /live
+    envVars:
+      - key: ENVIRONMENT
+        value: demo
+      - key: DEMO_MODE
+        value: "true"
+      - key: DEMO_ADMIN_EMAIL
+        sync: false
+      - key: DEMO_ADMIN_PASSWORD
+        sync: false
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: MONGODB_URL
+        value: mongodb://demo.invalid/mielmar
+      - key: MONGODB_DATABASE
+        value: cosmetiques_demo
+      - key: SQLITE_URL
+        value: sqlite+aiosqlite:///./data/cosmetiques.db
+      - key: REDIS_URL
+        value: redis://demo.invalid:6379/0
+      - key: QDRANT_URL
+        value: http://demo.invalid:6333
+      - key: OLLAMA_URL
+        value: http://demo.invalid:11434
+      - key: LOCAL_MEDIA_ENABLED
+        value: "false"
+      - key: CORS_ORIGINS
+        value: '["https://mielmar-cosmetiques-demo-lahlou.onrender.com"]'
+      - key: PUBLIC_APP_URL
+        value: https://mielmar-cosmetiques-demo-lahlou.onrender.com
+
+  - type: web
+    name: mielmar-cosmetiques-demo-lahlou
+    runtime: docker
+    plan: free
+    rootDir: frontend
+    dockerfilePath: ./Dockerfile.render
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://mielmar-cosmetiques-api-lahlou.onrender.com

@@ -54,6 +54,7 @@ from app.db.ai_infrastructure import (
 from app.db.sqlite import SqliteSession, check_sqlite, disconnect_sqlite, initialize_sqlite
 from app.repositories.product import ProductRepository
 from app.services.pack import PackService
+from app.services.demo_seed import seed_demo_data
 
 
 @asynccontextmanager
@@ -62,6 +63,8 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
     await connect_ai_infrastructure()
     await initialize_sqlite()
     await ProductRepository().ensure_indexes()
+    if settings.demo_mode:
+        await seed_demo_data()
     async with SqliteSession() as session:
         await PackService(session).sync_approved_marketing_packs()
     try:
@@ -214,6 +217,12 @@ async def health(response: Response) -> dict[str, object]:
         response.status_code = status.HTTP_503_SERVICE_UNAVAILABLE
 
     return {"status": overall_status, "services": services}
+
+
+@app.get("/live", tags=["System"])
+async def live() -> dict[str, str]:
+    """Lightweight hosting probe that does not depend on optional AI services."""
+    return {"status": "healthy"}
 
 
 @app.get("/api/admin/metrics", tags=["System"])

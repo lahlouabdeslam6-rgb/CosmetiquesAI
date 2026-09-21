@@ -10,7 +10,12 @@ ai_http_client: httpx.AsyncClient | None = None
 
 async def connect_ai_infrastructure() -> None:
     global redis_client, ai_http_client
-    redis_client = Redis.from_url(settings.redis_url, decode_responses=True)
+    if settings.demo_mode:
+        from fakeredis.aioredis import FakeRedis
+
+        redis_client = FakeRedis(decode_responses=True)
+    else:
+        redis_client = Redis.from_url(settings.redis_url, decode_responses=True)
     ai_http_client = httpx.AsyncClient(timeout=httpx.Timeout(60.0, connect=5.0))
 
 

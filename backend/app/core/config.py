@@ -7,6 +7,10 @@ class Settings(BaseSettings):
     app_name: str = "Cosmetiques API"
     app_version: str = "0.1.0"
     environment: str = "development"
+    demo_mode: bool = False
+    demo_admin_email: str = ""
+    demo_admin_password: str = ""
+    demo_admin_name: str = "Administration MIELMAR"
 
     mongodb_url: str
     mongodb_database: str = "cosmetiques"

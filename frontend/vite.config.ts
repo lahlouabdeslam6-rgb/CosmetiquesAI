@@ -4,6 +4,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [vinext()],
   server: {
-    allowedHosts: ["localhost", ".trycloudflare.com"],
+    allowedHosts: ["localhost", ".trycloudflare.com", ".onrender.com"],
   },
 });
